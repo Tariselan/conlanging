@@ -1,0 +1,48 @@
+body {
+    font-family: Arial;
+    background-image: linear-gradient(#FDF8D9,#EBD6B7);
+}
+h1 {
+	 text-align: center;
+    font-size: 50px;
+}
+h3 {
+    text-align: center;
+}
+a {
+    color: #000000;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+div.links {
+    text-align: center;
+	background-color: #FFE5C6;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #EDD8B7;
+    width: 170px;
+    height: 20px;
+    margin: 0 auto;
+}
+div#square {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #181818;
+	right: 20px;
+	top: 100px;
+	background-color: #363636;
+	opacity: 0;
+}
+div#square:hover {
+	opacity: 1;
+}
