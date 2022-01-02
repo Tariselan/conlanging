@@ -1,9 +1,9 @@
 body {
-    font-family: Arial;
-    background-image: linear-gradient(#FDF8D9,#EBD6B7);
+  font-family: Arial;
+  background-image: linear-gradient(#FDF8D9,#EBD6B7);
 }
 h1, h3 {
-    text-align: center;
+  text-align: center;
 }
 a {
 	color: #000000;
@@ -21,9 +21,9 @@ h1 {
 	font-size: 50px;
 }
 div#mainpage {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
     text-align: center;
 	background-color: #FFE5C6;
     border-radius: 5px;
