@@ -78,13 +78,13 @@ ul#navbar {
 	overflow: hidden;
 	background-color: #333;
 }
-li a:hover {
+li.navbar a:hover {
 	background-color: #111;
 }
-li {
+li.navbar {
   float: left;
 }
-li a {
+li.navbar a {
   display: block;
   color: white;
   text-align: center;
