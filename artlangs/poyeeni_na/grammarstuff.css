@@ -105,3 +105,20 @@ li.navbar:last-child {
 #active {
     background-color: #028b59;
 }
+footer {
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: #FFF;
+    border-style: solid;
+    border-width: 5px;;
+    border-color: #222;
+}
+footer a {
+    color: #EEE;
+}

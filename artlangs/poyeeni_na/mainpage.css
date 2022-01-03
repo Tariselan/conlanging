@@ -3,11 +3,8 @@ body {
     background-image: linear-gradient(#FDF8D9,#EBD6B7);
 }
 h1 {
-	 text-align: center;
+	text-align: center;
     font-size: 50px;
-}
-h3 {
-    text-align: center;
 }
 a.links {
 	text-decoration: none;
@@ -35,11 +32,11 @@ li.navbar {
   float: left;
 }
 li.navbar a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 li.navbar {
     border-right: 3px solid #444;
@@ -65,4 +62,21 @@ div#square {
 }
 div#square:hover {
 	opacity: 1;
+}
+footer {
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: #FFF;
+    border-style: solid;
+    border-width: 5px;;
+    border-color: #222;
+}
+footer a {
+    color: #EEE;
 }
