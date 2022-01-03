@@ -63,9 +63,8 @@ div#square {
 div#square:hover {
 	opacity: 1;
 }
-footer {
+div#footer {
     position: absolute;
-    bottom:0px;
     left:0px;
     width:100%;
     display: block;
@@ -77,6 +76,6 @@ footer {
     border-width: 5px;;
     border-color: #222;
 }
-footer a {
+div#footer a {
     color: #EEE;
 }
