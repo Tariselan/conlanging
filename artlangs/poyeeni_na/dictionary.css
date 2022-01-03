@@ -9,13 +9,48 @@ a {
 	color: #000000;
 }
 a:visited {
-  text-decoration: none;
+    text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 a:active {
-  text-decoration: underline;
+    text-decoration: underline;
+}
+a.links {
+	text-decoration: none;
+}
+div#navbar {
+    position: absolute;
+    border-style: solid;
+    border-width: 5px;;
+    border-color: #222;
+    width: 100%;
+    left:0px;
+    top:0px;
+}
+ul#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li.navbar a:hover {
+	background-color: #111;
+}
+li.navbar {
+  float: left;
+}
+li.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#active {
+    background-color: #028b59;
 }
 h1 {
 	font-size: 50px;

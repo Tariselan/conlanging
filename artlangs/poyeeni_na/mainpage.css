@@ -10,7 +10,7 @@ h3 {
     text-align: center;
 }
 a {
-    color: #000000;
+	color: #000000;
 }
 a:visited {
     text-decoration: none;
@@ -21,15 +21,40 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
-div.links {
-    text-align: center;
-	background-color: #FFE5C6;
-    border-radius: 5px;
+a.links {
+	text-decoration: none;
+}
+div#navbar {
+    position: absolute;
     border-style: solid;
-    border-color: #EDD8B7;
-    width: 170px;
-    height: 20px;
-    margin: 0 auto;
+    border-width: 5px;;
+    border-color: #222;
+    width: 100%;
+    left:0px;
+    top:0px;
+}
+ul#navbar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li.navbar a:hover {
+	background-color: #111;
+}
+li.navbar {
+  float: left;
+}
+li.navbar a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#active {
+    background-color: #028b59;
 }
 div#square {
 	position: absolute;
