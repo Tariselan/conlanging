@@ -56,18 +56,6 @@ td:hover {
     font-weight: 600;
     background-color: #FCEBD1;
 }
-a {
-	color: #000000;
-}
-a:visited {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
-}
-a:active {
-    text-decoration: underline;
-}
 a.links {
 	text-decoration: none;
 }
@@ -99,6 +87,20 @@ li.navbar a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+li.navbar {
+    border-right: 3px solid #444;
+}
+li.navbar:last-child {
+    border-right: none;
+    border-left: 3px solid #444;
+}
+li.navbar {
+    border-right: 3px solid #444;
+}
+li.navbar:last-child {
+    border-right: none;
+    border-left: 3px solid #444;
 }
 #active {
     background-color: #028b59;
