@@ -59,6 +59,7 @@ div#square {
 	top: 100px;
 	background-color: #363636;
 	opacity: 0;
+    cursor: pointer;
 }
 div#square:hover {
 	opacity: 1;
