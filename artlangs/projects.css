@@ -24,3 +24,20 @@ div#clickpoyee {
     top: 8%;
     cursor:pointer;
 }
+div#footer {
+    position: absolute;
+    left:0px;
+    bottom: 0%;
+    width:99%;
+    display: block;
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: #FFF;
+    border-style: solid;
+    border-width: 5px;;
+    border-color: #222;
+  }
+  div#footer a {
+    color: #EEE;
+  }
