@@ -1,0 +1,26 @@
+body {
+    font-family: Arial;
+    background-image: linear-gradient(#FDF8D9,#EBD6B7);
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+h2, h3 {
+	text-decoration: underline;
+}
+table {
+    text-align: center;
+    width: 1200px;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: 15px;
+}
+/*th.consonants, td.consonants {
+    width: 10%;
+}*/
+td:hover {
+    font-weight: 600;
+    background-color: #FCEBD1;
+}

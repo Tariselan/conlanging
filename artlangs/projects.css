@@ -24,6 +24,24 @@ div#clickpoyee {
     top: 8%;
     cursor:pointer;
 }
+div#identity {
+    position: absolute;
+    top: 260px;
+    right: 10%;
+    width: 35%;
+    height: 150px;
+    background-color: rgb(168, 255, 168);
+    padding: 10px;
+    border: 5px solid rgb(94, 189, 94);
+    border-radius: 10px;
+}
+div#clickidentity {
+    color: #444;
+    position: relative;
+    left: 40%;
+    top: 8%;
+    cursor:pointer;
+}
 div#footer {
     position: absolute;
     left:0px;
