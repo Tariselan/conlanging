@@ -5,21 +5,35 @@ body {
 h1 {
     font-size: 50px;
     text-align: center;
+    cursor: pointer;
 }
 h2, h3 {
 	text-decoration: underline;
 }
 table {
     text-align: center;
-    width: 1200px;
 }
 table, th, td {
     border: 1px solid black;
     font-size: 15px;
 }
-/*th.consonants, td.consonants {
-    width: 10%;
-}*/
+table#consonants {
+    width: 100%;
+}
+th.consonants, td.consonants {
+    width: 5%;
+    height: 25px;
+}
+table#vowelsS {
+    width: 400px;
+}
+table#vowelsL {
+    width: 400px;
+}
+th.vowels, td.vowels {
+    width: 25%;
+    height: 25px;
+}
 td:hover {
     font-weight: 600;
     background-color: #FCEBD1;

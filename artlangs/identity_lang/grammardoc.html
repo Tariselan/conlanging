@@ -4,10 +4,11 @@
             Grammar and Sounds
         </title>
         <link rel="stylesheet" href="grammardoc.css">
+        <script src="grammardoc.js"></script>
     </head>
     <body>
         <br>
-        <h1>
+        <h1 onClick="projectLink()">
             Identity Lang
         </h1>
         <div>
@@ -15,19 +16,19 @@
                 <h2>
                     Phonetic Inventory
                 </h2>
-                <div id="consonants">2
+                <div id="consonants">
                     <h3>
                         Consonants:
                     </h3>
-                    <table>
+                    <table id="consonants">
                         <tr>
                             <th class="consonants"></th>
                             <th colspan="2" class="consonants">Bilabial</th>
                             <th colspan="2" class="consonants">Labio-dental</th>
-                            <th class="consonants">Dental</th>
-                            <th class="consonants">Alveolar</th>
-                            <th class="consonants">Post-Alveolar</th>
-                            <th class="consonants">Velar</th>
+                            <th colspan="2" class="consonants">Dental</th>
+                            <th colspan="2" class="consonants">Alveolar</th>
+                            <th colspan="2" class="consonants">Post-Alveolar</th>
+                            <th colspan="2" class="consonants">Velar</th>
                             <th class="consonants">Uvular</th>
                             <th class="consonants">Glottal</th>
                         </tr>
@@ -35,9 +36,10 @@
                             <th class="consonants">Nasal</th>
                             <td colspan="2" class="consonants">m</td>
                             <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
                             <td colspan="2" class="consonants">n</td>
-                            <td class="consonants"></td>
-                            <td class="consonants">&#331;</td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants">&#331;</td>
                             <td class="consonants"></td>
                             <td class="consonants"></td>
                         </tr>
@@ -46,21 +48,25 @@
                             <td class="consonants">p</td>
                             <td class="consonants">b</td>
                             <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
                             <td class="consonants">t</td>
                             <td class="consonants">d</td>
+                            <td colspan="2" class="consonants"></td>
+                            <td class="consonants">k</td>
+                            <td class="consonants">g</td>
                             <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
+                            <td class="consonants">&#660;</td>
                         </tr>
                         <tr>
                             <th class="consonants">Aspirated</th>
                             <td class="consonants">p&#688;</td>
                             <td class="consonants"></td>
                             <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
                             <td class="consonants">t&#688;</td>
                             <td class="consonants"></td>
-                            <td class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td class="consonants">k&#688;</td>
                             <td class="consonants"></td>
                             <td class="consonants"></td>
                             <td class="consonants"></td>
@@ -68,70 +74,163 @@
                         <tr>
                             <th class="consonants">Sibilant affricate</th>
                             <td colspan="2" class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td class="consonants">t&#865;s</s></td>
+                            <td class="consonants">d&#865;z</td>
+                            <td class="consonants">t&#865;&#643;</td>
+                            <td class="consonants">d&#865;&#658;</td>
+                            <td colspan="2" class="consonants"></td>
                             <td class="consonants"></td>
                             <td class="consonants"></td>
                         </tr>
                         <tr>
                             <th class="consonants">Non-sibilant affricate</th>
                             <td colspan="2" class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td class="consonants">t&#810;&#952;</td>
+                            <td class="consonants">d&#810;&#240;</td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
                             <td class="consonants"></td>
                             <td class="consonants"></td>
                         </tr>
                         <tr>
                             <th class="consonants">Fricative</th>
+                            <td colspan="2" class="consonants"></td>
+                            <td class="consonants">f</td>
+                            <td class="consonants">v</td>
+                            <td class="consonants">&#952;</td>
+                            <td class="consonants">&#240;</td>
+                            <td class="consonants">s</td>
+                            <td class="consonants">z</td>
+                            <td class="consonants">&#643;</td>
+                            <td class="consonants">&#658;</td>
+                            <td colspan="2" class="consonants">x</td>
                             <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
+                            <td class="consonants">h</td>
                         </tr>
                         <tr>
                             <th class="consonants">Approximant</th>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
+                            <td class="consonants">&#653;</td>
+                            <td class="consonants">w</td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td class="consonants">(&#653;)</td>
+                            <td class="consonants">(w)</td>
                             <td class="consonants"></td>
                             <td class="consonants"></td>
                         </tr>
                         <tr>
                             <th class="consonants">Tap/flap</th>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants">&#638</td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
                             <td class="consonants"></td>
                             <td class="consonants"></td>
                         </tr>
                         <tr>
                             <th class="consonants">Trill</th>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
-                            <td class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants">r</td>
+                            <td colspan="2" class="consonants"></td>
+                            <td colspan="2" class="consonants"></td>
+                            <td class="consonants">&#640;</td>
                             <td class="consonants"></td>
                         </tr>
                     </table>
+                </div>
+                <br>
+                <br>
+                <div id="vowels">
+                    <h3>
+                        Vowels:
+                    </h3>
+                    <h4>
+                        Short Vowels:
+                    </h4>
+                    <table id="vowelsS">
+                        <tr>
+                            <th class="vowels"></th>
+                            <th colspan="2" class="vowels">Front</th>
+                            <th class="vowels">Back</th>
+                        </tr>
+                        <tr>
+                            <th class="vowels">Close</th>
+                            <td class="vowels">&#618;</td>
+                            <td class="vowels">&#655;</td>
+                            <td class="vowels">u</td>
+                        </tr>
+                        <tr>
+                            <th class="vowels">Close-mid</th>
+                            <td colspan="2" class="vowels">e</td>
+                            <td class="vowels"></td>
+                        </tr>
+                        <tr>
+                            <th class="vowels">Mid</th>
+                            <td colspan="3" class="vowels">&#601;</td>
+                        </tr>
+                        <tr>
+                            <th class="vowels">Open-mid</th>
+                            <td colspan="2" class="vowels"></td>
+                            <td class="vowels">&#596;</td>
+                        </tr>
+                        <tr>
+                            <th class="vowels">Open</th>
+                            <td colspan="2" class="vowels">a</td>
+                            <td class="vowels">&#593;</td>
+                        </tr>
+                    </table>
+                    <h4>
+                        Long Vowels:
+                    </h4>
+                    <table id="vowelsL">
+                        <tr>
+                            <th class="vowels"></th>
+                            <th colspan="2" class="vowels">Front</th>
+                            <th class="vowels">Back</th>
+                        </tr>
+                        <tr>
+                            <th class="vowels">Close</th>
+                            <td class="vowels">i&#720;</td>
+                            <td class="vowels">y&#720;</td>
+                            <td class="vowels">u&#720;</td>
+                        </tr>
+                        <tr>
+                            <th class="vowels">Close-mid</th>
+                            <td colspan="2" class="vowels">e&#720;</td>
+                            <td class="vowels">o&#720;</td>
+                        </tr>
+                        <tr>
+                            <th class="vowels">Open</th>
+                            <td colspan="2" class="vowels">a&#720;</td>
+                            <td class="vowels">&#593;&#720;</td>
+                        </tr>
+                    </table>
+                </div>
+                <br>
+                <br>
+                <div id="phonotactics">
+                    <h3>
+                        Phonotactics:
+                    </h3>
+                    Stops:
+                    <br>
+                    Nasals:
+                    <br>
+                    Fricatives:
+                    <br>
+                    Liquids:
+                    <br>
+                    Glides:
                 </div>
             </div>
         </div>
