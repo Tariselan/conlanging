@@ -1,0 +1,34 @@
+letters in each font:
+
+a = a
+A = aa
+b = p with breve
+B = P with breve
+c = i with diaresis
+C = i and i with diaresis
+d = t with breve
+D = T with breve
+e = e
+E = ee
+l = l
+L = L
+m = m
+M = M
+n = n
+N = N
+o = o
+O = oo
+p = p
+P = P
+r = r
+R = R
+s = s
+S = S
+t = t
+T = T
+u = u
+U = uu
+x = x
+X = X
+y = y
+Y = Y
