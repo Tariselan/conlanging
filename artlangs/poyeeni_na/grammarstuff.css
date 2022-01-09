@@ -20,6 +20,13 @@ div#mainpage {
     width: 170px;
     height: 20px;
 }
+@font-face {
+    font-family: PoyeeniNa;
+    src: url(PoyeeniNa.ttf);
+}
+.alphabet {
+    font-family: PoyeeniNa;
+}
 table {
     width: 500px;
     text-align: center;
