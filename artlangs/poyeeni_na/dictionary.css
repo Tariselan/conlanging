@@ -62,19 +62,3 @@ div#mainpage {
   width: 170px;
   height: 20px;
 }
-div#footer {
-  position: absolute;
-  left:0px;
-  width:99%;
-  display: block;
-  text-align: center;
-  padding: 3px;
-  background-color: #333;
-  color: #FFF;
-  border-style: solid;
-  border-width: 5px;;
-  border-color: #222;
-}
-div#footer a {
-  color: #EEE;
-}
