@@ -48,3 +48,18 @@ li.navbar:last-child {
 #active {
     background-color: #028b59;
 }
+button#switchLang {
+  position: absolute;
+  top: 80px;
+  right: 10px;
+}
+div.contactme {
+  position: absolute;
+  top: 60px;
+}
+div#englishC {
+  display: block;
+}
+div#frenchC {
+  display: none;
+}

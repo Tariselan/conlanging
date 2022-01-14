@@ -3,59 +3,69 @@
         <title>
             About Me
         </title>
-        <link rel="stylesheet" href="aboutme.css">  
+        <link rel="stylesheet" href="aboutme.css">
+		<script src="aboutme.js"></script>
     </head>
-    <body>
+    <body onload="onload()">
         <div id="navbar">
 			<ul id="navbar">
 				<li class="navbar">
-					<a href="mainpage.html" class="links">
-						Main
+					<a href="mainpage.html" id="main" class="links">
+						Main Page
 					</a>
 				</li>
 				<li class="navbar">
-					<a href="grammarstuff.html" class="links">
+					<a href="grammarstuff.html" id="grammar" class="links">
 						Grammar
 					</a>
 				</li>
 				<li class="navbar">
-					<a href="exampletexts.html" class="links">
+					<a href="exampletexts.html" id="examples" class="links">
 						Examples
 					</a>
 				</li>
 				<li class="navbar">
-					<a href="dictionary.html" class="links">
+					<a href="dictionary.html" id="dictionary" class="links">
 						Dictionary
 					</a>
 				</li>
                 <li style="float:right" class="navbar" id="active">
-					<a href="aboutme.html" id="contact">
+					<a href="aboutme.html" id="about">
 						About Me
 					</a>
 				</li>
 			</ul>
 		</div>
+		<button id="switchLang" onClick="switchLang()">
+			Switch to French
+		</button>
 		<br><br>
-        <h1>
-            Contact Me
-        </h1>
-        <h2>
-            <u>Email:</u>
-        </h2>
-        <p id="email">
-            <a href="mailto:krwoodmore@gmail.com">krwoodmore@gmail.com</a>
-        </p>
+		<div class="contactme">
+			<div id="englishC">
+        		<h1>
+					Contact Me
+        		</h1>
+        		<h2>
+        		    <u>Email:</u>
+        		</h2>
+        		<p id="email">
+        		    <a href="mailto:krwoodmore@gmail.com">krwoodmore@gmail.com</a>
+        		</p>
+			</div>
+		</div>
 		<br>
-		<div lang="fr">
-			<h1>
-        	    Contactez Moi
-        	</h1>
-        	<h2>
-        	    <u>Email:</u>
-        	</h2>
-        	<p id="email">
-        	    <a href="mailto:krwoodmore@gmail.com">krwoodmore@gmail.com</a>
-        	</p>
+		<div class="contactme" lang="fr">
+			<div id="frenchC">
+				<h1>
+					Contactez Moi
+        		</h1>
+        		<h2>
+        		    <u>E-mail:</u>
+        		</h2>
+        		<p id="e_mail">
+        		    <a href="mailto:krwoodmore@gmail.com">krwoodmore@gmail.com</a>
+        		</p>
+			</div>
 		</div>
     </body>
 </html>
