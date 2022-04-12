@@ -7,3 +7,6 @@ function identity() {
 function reverse() {
     window.location.replace("reverse_abugida/grammardocument.html");
 }
+function ablom() {
+    window.location.replace("ablom/main.html");
+}

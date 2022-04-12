@@ -17,13 +17,6 @@ div#poyeeniNa {
     border: 5px solid #888;
     border-radius: 10px;
 }
-div#clickpoyee {
-    color: #444;
-    position: relative;
-    left: 40%;
-    top: 8%;
-    cursor:pointer;
-}
 div#identity {
     position: absolute;
     top: 260px;
@@ -34,13 +27,6 @@ div#identity {
     padding: 10px;
     border: 5px solid rgb(94, 189, 94);
     border-radius: 10px;
-}
-div#clickidentity {
-    color: #444;
-    position: relative;
-    left: 40%;
-    top: 8%;
-    cursor:pointer;
 }
 div#reverse {
     position: absolute;
@@ -53,7 +39,7 @@ div#reverse {
     border: 5px solid rgb(143, 94, 189);
     border-radius: 10px;
 }
-div#clickreverse {
+div#click {
     color: #444;
     position: relative;
     left: 40%;
@@ -75,4 +61,4 @@ div#footer {
   }
   div#footer a {
     color: #EEE;
-  }
+}
