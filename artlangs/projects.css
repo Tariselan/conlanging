@@ -11,7 +11,6 @@ div#poyeeniNa {
     top: 150px;
     left: 15%;
     width: 30%;
-    height: 200px;
     background-color: #AAA;
     padding: 10px;
     border: 5px solid #888;
@@ -22,7 +21,6 @@ div#identity {
     top: 260px;
     right: 10%;
     width: 35%;
-    height: 150px;
     background-color: rgb(168, 255, 168);
     padding: 10px;
     border: 5px solid rgb(94, 189, 94);
@@ -33,7 +31,6 @@ div#reverse {
     top: 489px;
     left: 10%;
     width: 65%;
-    height: 160px;
     background-color: rgb(227, 168, 255);
     padding: 10px;
     border: 5px solid rgb(143, 94, 189);
@@ -41,7 +38,7 @@ div#reverse {
 }
 div#ablom {
     position: absolute;
-    top: 690px;
+    top: 750px;
     right: 14%;
     width: 48%;
     background-color: rgb(96, 146, 202);
