@@ -41,15 +41,15 @@ div#reverse {
 }
 div#ablom {
     position: absolute;
-    top: 600px;
-    left: 8%;
+    top: 690px;
+    right: 14%;
     width: 48%;
     background-color: rgb(96, 146, 202);
     padding: 10px;
     border: 5px solid rgb(67, 117, 175);
     border-radius: 10px;
 }
-div#click {
+div.click {
     color: #444;
     position: relative;
     left: 40%;
