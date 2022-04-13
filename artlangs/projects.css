@@ -19,7 +19,7 @@ div#poyeeniNa {
     border: 5px solid #222;
     border-radius: 10px;
 }
-div#poyeeniNa:hover {
+/*div#poyeeniNa:hover {
     animation-name: poyeeniNa;
     animation-duration: 1s;
     animation-direction: normal;
@@ -47,7 +47,7 @@ div#poyeeniNa:hover {
         border: 5px solid #888;
         z-index: 1;
     }
-}
+}*/
 div#identity {
     position: absolute;
     top: 260px;
@@ -58,7 +58,7 @@ div#identity {
     border: 5px solid rgb(94, 189, 94);
     border-radius: 10px;
 }
-div#identity:hover {
+/*div#identity:hover {
     top: 280px;
     width: 40%;
     right: 7.5%;
@@ -73,7 +73,7 @@ div#identity:hover {
     to {
         top: 280px;
     }
-}
+}*/
 div#reverse {
     position: absolute;
     top: 489px;
