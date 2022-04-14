@@ -63,4 +63,5 @@ div#square {
 }
 div#square:hover {
 	opacity: 1;
+    cursor: pointer;
 }
