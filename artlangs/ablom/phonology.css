@@ -15,7 +15,6 @@ table, th, td {
     border: 1px solid black;
     font-size: 15px;
 }
-
 th.consonants, td.consonants {
     width: 10%;
 }
