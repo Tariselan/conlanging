@@ -56,6 +56,12 @@ table {
 table#vowels {
     width: 400px;
 }
+table.verbs {
+    width: 250px;
+}
+table#voice {
+    width: 150px;
+}
 table, th, td {
     border: 1px solid black;
     font-size: 15px;
