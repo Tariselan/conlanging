@@ -49,3 +49,20 @@ li.navbar:last-child {
 #active {
     background-color: #028b59;
 }
+table {
+    width: 1200px;
+    text-align: center;
+}
+table#vowels {
+    width: 400px;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: 15px;
+}
+th.consonants, td.consonants {
+    width: 10%;
+}
+th#approx {
+    height: 60px;
+}
