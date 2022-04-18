@@ -46,8 +46,14 @@ li.navbar:last-child {
     border-right: none;
     border-left: 3px solid #444;
 }
+li#lexicon {
+    border-right: 3px solid #444;
+}
 #active {
     background-color: #028b59;
+}
+#active:hover {
+    background-color: #026440;
 }
 table {
     width: 1200px;
@@ -57,7 +63,7 @@ table#vowels {
     width: 400px;
 }
 table.verbs {
-    width: 250px;
+    width: 330px;
 }
 table#voice {
     width: 150px;
