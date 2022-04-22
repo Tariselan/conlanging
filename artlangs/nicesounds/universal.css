@@ -65,6 +65,9 @@ table#vowels {
 table.verbs {
     width: 330px;
 }
+table.nouns {
+    width: 350px;
+}
 table#voice {
     width: 150px;
 }
