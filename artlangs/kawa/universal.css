@@ -7,6 +7,23 @@ h1 {
     font-size: 42px;
     cursor: pointer;
 }
+table {
+    width: 450px;
+    text-align: center;
+}
+table#vowel {
+    width: 200px;
+}
+table#letter {
+    width: 300px;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: 15px;
+}
+th, td {
+    width: 30px;
+}
 a.links {
 	text-decoration: none;
 }
