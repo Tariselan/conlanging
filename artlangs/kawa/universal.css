@@ -17,6 +17,12 @@ table#vowel {
 table#letter {
     width: 300px;
 }
+div#phonotactics table {
+    width: 350px;
+}
+div#phonotactics table td {
+    text-align: left;
+}
 table, th, td {
     border: 1px solid black;
     font-size: 15px;
