@@ -15,6 +15,9 @@ function secret() {
             window.location.replace('../nicesounds/main.html');
         }
         else if (conlang == 'nicesounds') {
+            window.location.replace('../kawa/main.html');
+        }
+        else if (conlang == 'kawa') {
             window.location.replace('../poyeeni_na/mainpage.html');
         }
     }, 650);
