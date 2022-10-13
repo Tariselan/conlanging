@@ -3,4 +3,6 @@ div#vowelChart {
     height: 180px;
     right: 50px;
     position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
