@@ -6,3 +6,9 @@ div#vowelChart {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+svg {
+    z-index: 0;
+}
+div#navbar {
+    z-index: 1;
+}
