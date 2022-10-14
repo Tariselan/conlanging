@@ -138,11 +138,8 @@
             </div>
             <br>
             <hr>
-            <div id="vowels">
-                <h2>
-                    <u>Vowels:</u>
-                </h2>
-                <div id="vowelChart">
+            <div id="vowels">      
+                <div class="vowelChart">
                     <svg height="180" width="300">
                         <polyline points="0,0 300,0 300,180 120,180 80,120 300,120 80,120 40,60 300,60 40,60 0,0 140,0 210,180"
                         style="fill:transparent;stroke:#777;stroke-width:3;"/>
@@ -162,8 +159,11 @@
                         <!--u = vowel-->
                         <circle cx="290" cy="9" r="5" stroke="black" fill="black"/>
                         <text x="270" y="15" fill="black">u</text>
-                      </svg>
+                    </svg>
                 </div>
+                <h2>
+                    <u>Vowels:</u>
+                </h2>
                 <table id="vowel">
                     <tr>
                         <th></th>
@@ -187,6 +187,7 @@
                 </table>
                 <p>
                     Kawa has 5 vowels, /i/, /u/, /e/, /o/, /a/. Each occur in both stressed and unstressed syllables.
+                    Kawa doesn't have phonemic <br> length nor phonemic diphthongs, except for one exception; whenever a vowel is followed by a /j/ in the example, <i>imo j teo</i> <br> /imojteo/ or <i>imojteo</i> /imojteo/.
                 </p>
                 <table>
                     <caption>Examples of Kawa Vowels</caption>
@@ -241,6 +242,18 @@
                         <td></td>
                     </tr>
                 </table>
+                <p>
+                    Kawa has two main glides that occur in the language, /aj/ and /oj/
+                </p>
+                <div class="vowelChart">
+                    <svg height="180" width="300">
+                        <marker id="arrowhead" markerwidth="10" markerheight="7" refx="0" refy="3.5" orient="auto">
+                            <polygon points="0 0, 10 3.5, 0 7" />
+                        </marker>
+                        <polyline points="0,0 300,0 300,180 120,180 80,120 300,120 80,120 40,60 300,60 40,60 0,0 140,0 210,180"
+                        style="fill:transparent;stroke:#777;stroke-width:3;"/>
+                    </svg>
+                </div>
             </div>
         </div>
         <br>
