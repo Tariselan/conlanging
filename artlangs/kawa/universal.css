@@ -78,3 +78,32 @@ li#lexicon {
 #active:hover {
     background-color: #026440;
 }
+hr {
+    border-top: 4px solid #333;
+    border-radius: 10px;   
+}
+.left {
+    left: 0%;
+    width: 33%;
+    z-index: 1;
+    top: 0px;
+    overflow-x: hidden;
+    position: relative;
+}
+.centre {
+    left: 33%;
+    width: 33%;
+    z-index: 1;
+    top: -985px;
+    overflow-x: hidden;
+    position: relative;
+}
+.right {
+    left: 67%;
+    width: 33%;
+    z-index: 1;
+    top: -2200px;
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: relative;
+}
