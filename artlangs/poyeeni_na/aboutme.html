@@ -4,8 +4,8 @@
             About Me
         </title>
         <link rel="stylesheet" href="aboutme.css">
-		
 		<script src="aboutme.js"></script>
+		<script src="../projects.js"></script>
     </head>
     <body onload="onload()">
         <div id="navbar">
@@ -37,13 +37,13 @@
 				</li>
 			</ul>
 		</div>
-		<button id="switchLang" onClick="switchLang()">
+		<button id="switchLang" onclick="switchLang()">
 			Switch to French
 		</button>
 		<br><br>
 		<div class="contactme">	
 			<div id="englishC">
-        		<h1>
+        		<h1 onclick="language(-1)">
 					Contact Me
         		</h1>
         		<h2>

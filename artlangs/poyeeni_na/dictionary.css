@@ -5,6 +5,9 @@ body {
 h1, h3 {
   text-align: center;
 }
+h1 {
+  cursor: pointer;
+}
 a.links {
 	text-decoration: none;
 }
