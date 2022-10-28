@@ -12,3 +12,6 @@ svg {
 div#navbar {
     z-index: 1;
 }
+div#block {
+    height: 300px;
+}
