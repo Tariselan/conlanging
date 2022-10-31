@@ -8,22 +8,49 @@
                 font-family: Arial;
                 background-image: linear-gradient(#FDF8D9,#EBD6B7);
             }
+            div {
+                position: absolute;
+                width: 50%;
+                left: 25%;
+                text-align: center;
+                padding: 70px 0;
+            }
+            div h1 {
+                font-size: 50px;
+            }
+            svg {
+                height: 200px;
+                width: 200px;
+            }
         </style>
         <script>
-            function next() {
-                window.location.replace("artlangs/projects.html")
-            }
+            setTimeout(function main() {
+                //window.location.replace("artlangs/projects.html")
+            }, 2000);
         </script>
     </head>
-    <body onload="next()">
-        <h1>
-            Welcome!
-        </h1>
-        <button onClick="next()">
-            Travel to the actual front page
-        </button>
-        <p>
-            I am unsuprisingly not able to figure out how to make this not the first thing to show up but ah well.
-        </p>
+    <body onload="//next()">
+        <div>
+            <h1>
+                Loading...
+            </h1>
+            <p>
+                This page is currently under works, to view the rest of the site go to <a href="https://tarislan.github.io/conlanging/artlangs/projects.html">this link</a>
+            </p>
+        </div>
+        <p style="height:100px;"></p>
+        <div>
+            <svg>
+                <circle id="1" cx="200"/>
+                <circle id="2" cx="64.3"/>
+                <circle id="3" cx="17.4"/>
+                <circle id="4" cx=""/>
+                <circle id="5"/>
+                <circle id="6"/>
+                <circle id="7"/>
+                <circle id="8"/>
+                <circle id="9"/>
+            </svg>
+        </div>
     </body>
 </html>
