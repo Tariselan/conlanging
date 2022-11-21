@@ -79,8 +79,8 @@ li#lexicon {
     background-color: #026440;
 }
 hr {
-    border-top: 4px solid #333;
-    border-radius: 10px;   
+    border-top: 2px solid #333;
+    border-radius: 1px;   
 }
 .left {
     left: 0%;

@@ -35,211 +35,264 @@
             </ul>
         </div>
         <br><br>
-        <h1 onclick="language(-1)">Grammar and Syntax</h1>
-        <p>The word order in Kawa is <span onclick="window.location.replace('https://en.wikipedia.org/wiki/Subject-verb-object')">subject-verb-object (SVO)</span>.
-        Kawa marks its nouns for case but uses particles to indicate mood and tense for verbs.
-        </p>
-        <div id="nouns">
-            <h2>Nouns</h2>
-            <p>
-                Nouns decline for 3 cases, the cases are as follows:
-                <ol>
-                    <li>Nominative - used when the noun is the subject or the predicate nominative. The thing or person doing the acion: People love me: <i>pesomo mwa imo</i>.</li>
-                    <li>Accusative - used when the noun is the direct object. The thing being acted upon: I love people: <i>imo mwa pesomo</i>.</li>
-                    <li>Genitive - used when the noun is the possessor of or connected with an object: The cat's hair: <i>hawamo gati</i>; the agent of a passive verb: The person was injured by me: <i>o goŋ knot pesomo iŋi</i>; and the partitive:. </li>
-                    <li>Dative - used when the noun is the indirect object or being used in a comparison, certain verbs will also change meaning if the object is dative (<i>tambi</i> to thank, to give thanks to + DAT): I gave them a cat: <i>imo goŋ dewo gato sovia</i>; I am better than you: <i>imo gaŋqe asimus ta</i>.</li>
-                </ol>
-                Note that the nominative and accusative case are identical for all nouns and the distinction is only made in the derogatory pronouns.
-            </p>
-            <p>
-                Nouns indicate noun case by changing their ending. The ending of the noun depends on whether or not the base-form of the noun ends in a consonant (C) or a vowel (V). They decline as follows:
-                <p></p>
-                <table style="width: 350px;">
+        <h1 onclick="language(-1)">Grammar and Syntax</h1>  
+        <div style="margin: 10px;">
+            <div id="syntax">
+                <h2>Syntax</h2>
+                <p>
+                    Kawa follows an <span style="cursor: pointer;" onclick="window.open('https://en.wikipedia.org/wiki/Subject%E2%80%93verb%E2%80%93object_word_order', '_blank')">SVO</span> word order.
+                    The verbal in Kawa are rather isolating in nature wheras the noun phrases are much more agglutanative.
+                </p>
+            </div>
+            <br><hr><br>
+            <div id="nouns">
+                <h2>Nouns</h2>
+                <p>
+                    Nouns decline for 3 cases, the cases are as follows:
+                    <ol>
+                        <li>Nominative - used when the noun is the subject or the predicate nominative. The thing or person doing the acion: People love me: <i>pesomo mwa imo</i>.</li>
+                        <li>Accusative - used when the noun is the direct object. The thing being acted upon: I love people: <i>imo mwa pesomo</i>.</li>
+                        <li>Genitive - used when the noun is the possessor of or connected with an object: The cat's hair: <i>hawamo gati</i>; the agent of a passive verb: The person was injured by me: <i>o goŋ knot pesomo iŋi</i>; and the partitive:. </li>
+                        <li>Dative - used when the noun is the indirect object or being used in a comparison, certain verbs will also change meaning if the object is dative (<i>tambi</i> to thank, to give thanks to + DAT): I gave them a cat: <i>imo goŋ dewo gato sovia</i>; I am better than you: <i>imo gaŋqe asimus ta</i>.</li>
+                    </ol>
+                    Note that the nominative and accusative case are identical for all nouns and the distinction is only made in the derogatory pronouns.
+                </p>
+                <p>
+                    Nouns indicate noun case by changing their ending. The ending of the noun depends on whether or not the base-form of the noun ends in a consonant (C) or a vowel (V). They decline as follows:
+                    <p></p>
+                    <table style="width: 350px;">
+                        <tr>
+                            <th></th>
+                            <th>Nominative / Accusative</th>
+                            <th>Genitive</th>
+                            <th>Dative</th>
+                        </tr>
+                        <tr>
+                            <th>-C</th>
+                            <td>-o</td>
+                            <td>-i</td>
+                            <td>-a</td>
+                        </tr>
+                        <tr>
+                            <th>-V</th>
+                            <td>-mo</td>
+                            <td>-mi</td>
+                            <td>-ma</td>
+                        </tr>
+                    </table> 
+                </p>
+                <h4>Articles</h4>
+                <p>
+                    Kawa does have an indefinite and definite article, however, these are not common in day to day speech and they are only found in formal writing.
+                </p>
+                <table style="width: 150px;">
+                    <tr>
+                        <tr>
+                            <th>Definite</th>
+                            <th>Indefinite</th>
+                        </tr>
+                        <tr>
+                            <td>te</td>
+                            <td>am</td>
+                        </tr>
+                    </tr>
+                </table>
+            </div>
+            <br><hr><br>
+            <div id="pronouns">
+                <h2>Pronouns</h2>
+                <p>
+                    Pronouns declin for case, gender, and derogatress; derogatress is distinction between derogatory pronouns. <br> Pronouns decline as follows:
+                </p>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                        <th>Nominative</th>
+                        <th>Accusative</th>
+                        <th>Dative</th>
+                        <th>Genitive</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">1st Person</th>
+                        <th>Plain</th>
+                        <td colspan="2">imo</td>
+                        <td>imwa</td>
+                        <td>iŋi</td>
+                    </tr>
+                    <tr>
+                        <th>Derogatory</th>
+                        <td>imwo</td>
+                        <td>imƿo</td>
+                        <td>ima</td>
+                        <td>iŋwi</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">2nd Person</th>
+                        <th>Plain</th>
+                        <td colspan="2">teo</td>
+                        <td>ta</td>
+                        <td>da</td>
+                    </tr>
+                    <tr>
+                        <th>Derogatory</th>
+                        <td>dƿeo</td>
+                        <td>gweo</td>
+                        <td>dam</td>
+                        <td>diwi</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">3rd Person</th>
+                        <th>Plain</th>
+                        <td colspan="2">sov</td>
+                        <td>sovia</td>
+                        <td>sovio</td>
+                    </tr>
+                    <tr>
+                        <th>Derogatory</th>
+                        <td>zof</td>
+                        <td>zov</td>
+                        <td>zia</td>
+                        <td>zio</td>
+                    </tr>
+                </table>
+                <h3>Derogatory Pronouns and Derogatress</h3>
+                <p>
+                    Take the sentence, "You are a nerd." The senteice isn't itself inherently considered an insult (or with having a derogatory sense), but in many dialects of Modern English, because of history and culture, it tends to be an insult. 
+                    However, it needs not to be, and often its intent/derogatress is often shown/inferred using things such as context, tone, non-verbal language, etc etc.
+                    <pre>   You are a nerd. -> <i>teo gaŋqe qiqamo</i></pre>
+                    This sentence is merely a statement of fact <i><b>without</b></i> any intent of being an insult, moreso to describe. (LIT: you have the quality of a nerd)
+                    <br>
+                    Compare this with the sentence:
+                    <pre>   You are a nerd, -> <i>dƿeo gaŋqe qiqamo</i></pre>
+                    This sentence implies moreso an insulting tone, with the intent to insult the listener, whereas <i>teo</i> just implies a general statement, <i>dƿeo</i> implies a more insulting manner of delivery. <br>
+                    <br>
+                    The derogatory and non-derogatory distinction is very similar to that of the T-V distinction found in a lot of romantic languages. 
+                    Except here it is applier in a more general context in a slightly different manner. <br>
+                    NOTE: Although derogatory can be analysed as informal, the derogatory is often used in insulting, joking, et al manners  which tend to happen in informal contexts.
+                    <i>teo</i> is still used in preference by Kawa speakers in informal contexts.
+                </p>
+            </div>
+            <br><hr><br>
+            <div id="verbs">
+                <h2>Verbs</h2>
+                <p>
+                    Verbs do not inflect for tense, aspect, or mood, instead tense is indicated with the following particles:
+                </p>
+                <table style="width:350px;">
                     <tr>
                         <th></th>
-                        <th>Nominative / Accusative</th>
-                        <th>Genitive</th>
-                        <th>Dative</th>
+                        <th>Indicative</th>
+                        <th>Imperative</th>
+                        <th>Conditional</th>
                     </tr>
                     <tr>
-                        <th>-C</th>
-                        <td>-o</td>
-                        <td>-i</td>
-                        <td>-a</td>
+                        <th>Present</th>
+                        <td>gaŋ</td>
+                        <td>qaŋ</td>
+                        <td>gagaŋ</td>
                     </tr>
                     <tr>
-                        <th>-V</th>
-                        <td>-mo</td>
-                        <td>-mi</td>
-                        <td>-ma</td>
-                    </tr>
-                </table> 
-            </p>
-            <h4>Articles</h4>
-            <p>
-                Kawa does have an indefinite and definite article, however, these are not common in day to day speech and they are only found in formal writing.
-            </p>
-            <table style="width: 150px;">
-                <tr>
-                    <tr>
-                        <th>Definite</th>
-                        <th>Indefinite</th>
+                        <th>Past</th>
+                        <td>goŋ</td>
+                        <td rowspan="2">-</td>
+                        <td>gogoŋ</td>
                     </tr>
                     <tr>
-                        <td>te</td>
-                        <td>am</td>
+                        <th>Future</th>
+                        <td>kam</td>
+                        <td>kakam</td>
                     </tr>
-                </tr>
-            </table>
-        </div>
-        <br><br>
-        <div id="pronouns">
-            <h2>Pronouns</h2>
-            <p>
-                Pronouns declin for case, gender, and derogatress; derogatress is distinction between derogatory pronouns. <br> Pronouns decline as follows:
-            </p>
-            <table>
-                <tr>
-                    <th colspan="2"></th>
-                    <th>Nominative</th>
-                    <th>Accusative</th>
-                    <th>Dative</th>
-                    <th>Genitive</th>
-                </tr>
-                <tr>
-                    <th rowspan="2">1st Person</th>
-                    <th>Plain</th>
-                    <td colspan="2">imo</td>
-                    <td>imwa</td>
-                    <td>iŋi</td>
-                </tr>
-                <tr>
-                    <th>Derogatory</th>
-                    <td>imwo</td>
-                    <td>imƿo</td>
-                    <td>ima</td>
-                    <td>iŋwi</td>
-                </tr>
-                <tr>
-                    <th rowspan="2">2nd Person</th>
-                    <th>Plain</th>
-                    <td colspan="2">teo</td>
-                    <td>ta</td>
-                    <td>da</td>
-                </tr>
-                <tr>
-                    <th>Derogatory</th>
-                    <td>dƿeo</td>
-                    <td>gweo</td>
-                    <td>dam</td>
-                    <td>diwi</td>
-                </tr>
-                <tr>
-                    <th rowspan="2">3rd Person</th>
-                    <th>Plain</th>
-                    <td colspan="2">sov</td>
-                    <td>sovia</td>
-                    <td>sovio</td>
-                </tr>
-                <tr>
-                    <th>Derogatory</th>
-                    <td>zof</td>
-                    <td>zov</td>
-                    <td>zia</td>
-                    <td>zio</td>
-                </tr>
-            </table>
-            <h3>Derogatory Pronouns and Derogatress</h3>
-            <p>
-                Take the sentence, "You are a nerd." The senteice isn't itself inherently considered an insult (or with having a derogatory sense), but in many dialects of Modern English, because of history and culture, it tends to be an insult. 
-                However, it needs not to be, and often its intent/derogatress is often shown/inferred using things such as context, tone, non-verbal language, etc etc.
-                <pre>   You are a nerd. -> <i>teo gaŋqe qiqamo</i></pre>
-                This sentence is merely a statement of fact <i><b>without</b></i> any intent of being an insult, moreso to describe. (LIT: you have the quality of a nerd)
-                <br>
-                Compare this with the sentence:
-                <pre>   You are a nerd, -> <i>dƿeo gaŋqe qiqamo</i></pre>
-                This sentence implies moreso an insulting tone, with the intent to insult the listener, whereas <i>teo</i> just implies a general statement, <i>dƿeo</i> implies a more insulting manner of delivery. <br>
-                <br>
-                The derogatory and non-derogatory distinction is very similar to that of the T-V distinction found in a lot of romantic languages. 
-                Except here it is applier in a more general context in a slightly different manner. <br>
-                NOTE: Although derogatory can be analysed as informal, the derogatory is often used in insulting, joking, et al manners  which tend to happen in informal contexts.
-                <i>teo</i> is still used in preference by Kawa speakers in informal contexts.
-            </p>
-        </div>
-        <br><br>
-        <div id="verbs">
-            <h2>Verbs</h2>
-            <p>
-                Verbs do not inflect for tense and mood, instead tense and mood is indicated with the following particles:
-            </p>
-            <table style="width:350px;">
-                <tr>
-                    <th></th>
-                    <th>Indicative</th>
-                    <th>Imperative</th>
-                    <th>Conditional</th>
-                </tr>
-                <tr>
-                    <th>Present</th>
-                    <td>gaŋ</td>
-                    <td>qaŋ</td>
-                    <td>gagaŋ</td>
-                </tr>
-                <tr>
-                    <th>Past</th>
-                    <td>goŋ</td>
-                    <td rowspan="2">-</td>
-                    <td>gogoŋ</td>
-                </tr>
-                <tr>
-                    <th>Future</th>
-                    <td>kam</td>
-                    <td>kakam</td>
-                </tr>
-            </table>
-            <p>
-                Take the verb <i>sda</i>, meaning <i>to eat</i>, conjugated as follows:
-                <ul>
-                    <li>imo sda - I eat</li>
-                    <li>imo gaŋ sda - I am eating</li>
-                    <li>imo gon sda - I ate / I was eating</li>
-                    <li>imo kam sda - I will eat / I will be eating</li>
-                    <li>imo gagaŋ sda - I would eat / I would be eating</li>
-                    <li>imo gogoŋ sda - I would have eaten / I would have been eating</li>
-                    <li>imo kakam sda - I would eat [in the future] / I would be eating [in the future]</li> 
-                    <li>(teo) qaŋ sda! - Eat!</li>
-                </ul>
-            </p>
-            <h3>The Copula</h3>
-            <p>
-                In Kawa, there is one main copula '<i>qe</i>' which functions both as the verb '<i>to be</i>' and the verb '<i>to have</i>'. 
-                '<i>qe</i>' is the only verb that inflects; it inflects such as the following table:
-            </p>
-            <table id="copula" style="width: 350px;">
-                <tr>
-                    <th></th>
-                    <th>Indicative</th>
-                    <th>Imperative</th>
-                    <th>Conditional</th>
-                </tr>
-                <tr>
-                    <th>Present</th>
-                    <td>gaŋqe</td>
-                    <td>qeqe!</td>
-                    <td>gaqegaŋ</td>
-                </tr>
-                <tr>
-                    <th>Past</th>
-                    <td>goŋqe</td>
-                    <td rowspan="2">-</td>
-                    <td>goqegoŋ</td>
-                </tr>
-                <tr>
-                    <th>Future</th>
-                    <td>kamqe</td>
-                    <td>kaqekam</td>
-                </tr>
-            </table>
+                </table>
+                <p>
+                    Take the verb <i>sda</i>, meaning <i>to eat</i>, conjugated as follows:
+                    <ul>
+                        <li>imo sda - I eat</li>
+                        <li>imo gaŋ sda - I am eating</li>
+                        <li>imo gon sda - I ate / I was eating</li>
+                        <li>imo kam sda - I will eat / I will be eating</li>
+                        <li>imo gagaŋ sda - I would eat / I would be eating</li>
+                        <li>imo gogoŋ sda - I would have eaten / I would have been eating</li>
+                        <li>imo kakam sda - I would eat [in the future] / I would be eating [in the future]</li> 
+                        <li>(teo) qaŋ sda! - Eat!</li>
+                    </ul>
+                </p>
+                <h3>The Copula</h3>
+                <p>
+                    In Kawa, there is one main copula '<i>qe</i>' which functions both as the verb '<i>to be</i>' and the verb '<i>to have</i>'. 
+                    '<i>qe</i>' is the only verb that inflects; it inflects such as the following table:
+                </p>
+                <table id="copula" style="width: 350px;">
+                    <tr>
+                        <th></th>
+                        <th>Indicative</th>
+                        <th>Imperative</th>
+                        <th>Conditional</th>
+                    </tr>
+                    <tr>
+                        <th>Present</th>
+                        <td>gaŋqe</td>
+                        <td>qeqe!</td>
+                        <td>gaqegaŋ</td>
+                    </tr>
+                    <tr>
+                        <th>Past</th>
+                        <td>goŋqe</td>
+                        <td rowspan="2">-</td>
+                        <td>goqegoŋ</td>
+                    </tr>
+                    <tr>
+                        <th>Future</th>
+                        <td>kamqe</td>
+                        <td>kaqekam</td>
+                    </tr>
+                </table>
+                <h3>Auxiliary verbs</h3>
+                <p>
+                    Kawa uses auxiliary verbs to express different moods and aspects. 
+                    Auxiliaries have two forms, one before verbs beginning with a consonant, and one that elides before a verb beginning with a vowel.
+                    <table>
+                        <caption>Auxiliary verbs expressing a Deontic Mood</caption>
+                        <tr>
+                            <th>Auxiliary verb</th>
+                            <th>Meaning</th>
+                            <th>English translation</th>
+                        </tr>
+                        <tr>
+                            <td>sd(e)</td>
+                            <td></td>
+                            <td>"should"</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table>
+                        <caption>Auxiliary verbs expressing an Epistemic Mood</caption>
+                        <tr>
+                            <th>Auxiliary verb</th>
+                            <th>Meaning</th>
+                            <th>English translation</th>
+                        </tr>
+                        <tr>
+                            <td>zƿ</td>
+                            <td></td>
+                            <td>"must"</td>
+                        </tr>
+                    </table>
+                    <br>
+                    <table>
+                        <caption>Auxiliary verbs expressing a Dynamic Mood</caption>
+                        <tr>
+                            <th>Auxiliary verb</th>
+                            <th>Meaning</th>
+                            <th>English translation</th>
+                        </tr>
+                        <tr>
+                            <td>muz</td>
+                            <td></td>
+                            <td>"can"</td>
+                        </tr>
+                    </table>
+                </p>
+            </div>
         </div>
     </body>
 </html>
