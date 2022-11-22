@@ -7,6 +7,9 @@ h1 {
     font-size: 42px;
     cursor: pointer;
 }
+h2, h3 {
+    text-decoration: underline;
+}
 table {
     width: 450px;
     text-align: center;
