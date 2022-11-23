@@ -7,7 +7,8 @@ div#syntaxtree-adv {
     text-align: center;
     position: absolute;
     left:67%;
-    top: 3150px;
+    top: 3125px;
+    z-index: 0;
 }
 div#syntaxtree-adv img {
     width: 359.25px;
