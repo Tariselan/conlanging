@@ -18,16 +18,24 @@
             div h1 {
                 font-size: 50px;
             }
-            svg {
-                height: 200px;
-                width: 200px;
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transfrom: rotate(360deg);
+                }
             }
-
+            svg {
+                animation-name: spin;
+                animation-duration: 5s;
+                transform: rotate(720deg);
+            }
         </style>
         <script>
             setTimeout(function main() {
-                //window.location.replace("artlangs/projects.html")
-            }, 2000);
+                window.location.replace("artlangs/projects.html")
+            }, 5000);
         </script>
     </head>
     <body onload="//next()">
@@ -35,23 +43,17 @@
             <h1>
                 Loading...
             </h1>
-            <p>
-                This page is currently under works, to view the rest of the site go to <i>https://tariselan.github.io/conlanging/artlangs/projects.html</i>
-            </p>
-        </div>
-        <p style="height:100px;"></p>
         <div>
-      <!--  <svg>
-                <circle id="1" cx="200"/>
-                <circle id="2" cx="64.3"/>
-                <circle id="3" cx="17.4"/>
-                <circle id="4" cx=""/>
-                <circle id="5"/>
-                <circle id="6"/>
-                <circle id="7"/>
-                <circle id="8"/>
-                <circle id="9"/>
-            </svg>-->
-        </div>
+        <svg height="110" width="115">
+            <circle id="1" cx="105" cy="55" r="5" stroke="black" fill="black"/>
+            <circle id="2" cx="93" cy="87" r="1" stroke="black" fill="black"/>
+            <circle id="3" cx="64" cy="104" r="1.5" stroke="black" fill="black"/>
+            <circle id="4" cx="30" cy="98" r="2" stroke="black" fill="black"/>
+            <circle id="5" cx="8" cy="72" r="2.5" stroke="black" fill="black"/>
+            <circle id="6" cx="8" cy="38" r="3" stroke="black" fill="black"/>
+            <circle id="7" cx="30" cy="12" r="3.5" stroke="black" fill="black"/>
+            <circle id="8" cx="64" cy="6" r="4" stroke="black" fill="black"/>
+            <circle id="9" cx="93" cy="23" r="4.5" stroke="black" fill="black"/>
+        </svg>
     </body>
 </html>
