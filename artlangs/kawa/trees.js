@@ -7,6 +7,10 @@ var tree1 = elId('syntaxtree-adv');
 
 var adv = elId('tadverbs');
 var advP = elId('tadverbs-p');
-
-tree1.style.top = adv.offsetTop - 25;
-advP.style.width = advP.offsetWidth - tree1.offsetWidth;
+function trees() {
+    let x = parseInt(adv.offsetTop - 50);
+    tree1.style.top = (x + 'px');
+    advP.style.width = (parseInt(advP.offsetWidth) - parseInt(tree1.offsetWidth) + 'px');
+}
+trees();
+window.addEventListener('resize', trees);
