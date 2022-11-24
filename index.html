@@ -33,16 +33,25 @@
             }
         </style>
         <script>
+            var bell = new Audio("artlangs/bell.mp3");
             setTimeout(function main() {
-                window.location.replace("artlangs/projects.html")
-            }, 5000);
+                bell.play();
+                setTimeout(function next() {
+                    window.location.replace("artlangs/projects.html");
+                }, 750);
+            }, 4250);
         </script>
     </head>
-    <body onload="//next()">
+    <body>
         <div>
             <h1>
                 Loading...
             </h1>
+            <h4>
+                <i style="color:#888">
+                    click for fun
+                </i>
+            </h4>
         <div>
         <svg height="110" width="115">
             <circle id="1" cx="105" cy="55" r="5" stroke="black" fill="black"/>
