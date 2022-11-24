@@ -7,8 +7,17 @@
         <link rel="stylesheet" href="universal.css">
         <link rel="icon" href="../rock.png" type="image/x-icon">
         <script src="../projects.js"></script>
+        <link rel="stylesheet" href="grammarsyntax.css">
         <link rel="stylesheet" href="trees.css">
         <script src="trees.js" defer></script>
+        <style>
+            div div:not(#syntax, .tree) {
+                columns: 2;
+            }
+            div div#verbs, div div#adjectives {
+                columns: 1;
+            }
+        </style>
     </head>
     <body>
         <div id="navbar">
@@ -331,7 +340,7 @@
                     1P.nom ind-Pa tell 3P.acc go ∅ tree.dat 1P.gen yesterday<br>
                     <i>Yesterday, I told him to arrive at my tree</i>
                 </p>
-                <div id="syntaxtree-adv">
+                <div class="tree" id="syntaxtree-adv">
                     <img src="syntaxtree-tempadv.png" alt="">
                     <p><i>Syntax tree for sentence on the left</i></p>
                 </div>
