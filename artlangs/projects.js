@@ -4,7 +4,7 @@ const languages = [
     "kawa/main.html", // 2
     "ablom/main.html", // 3
     "nicesounds/main.html", // 4
-    "newlang/main.html"
+    "omvlan/main.html"
 ];
 const langDict = [
     "poyeeni_na", // 0 
@@ -12,7 +12,7 @@ const langDict = [
     "kawa", // 2
     "ablom", // 3
     "nicesounds", // 4
-    "newlang" // 5
+    "omvlan" // 5
 ]
 var bell = new Audio("../bell.mp3");
 var page = location.href.split("/").slice(-2)[1];

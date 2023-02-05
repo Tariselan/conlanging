@@ -68,3 +68,14 @@ a.links {
 #active a:hover{
     background-color: #026b45; 
 }
+
+table {
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    font-size: 15px;
+}
+th, td {
+    height: 30px;
+}
