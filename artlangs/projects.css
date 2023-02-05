@@ -61,6 +61,16 @@ div#nicesounds {
     border: 5px solid rgb(182, 38, 19);
     border-radius: 10px;
 }
+div#newlang {
+    position: absolute;
+    top: 690px;
+    left: 8%;
+    width: 25%;
+    background-color: rgb(164, 67, 184);
+    padding: 10px;
+    border: 5px solid rgb(127, 47, 143);
+    border-radius: 10px;
+}
 div.click {
     color: #444;
     position: relative;

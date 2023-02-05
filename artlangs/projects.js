@@ -3,14 +3,16 @@ const languages = [
     "identity_lang/main.html", // 1
     "kawa/main.html", // 2
     "ablom/main.html", // 3
-    "nicesounds/main.html" // 4
+    "nicesounds/main.html", // 4
+    "newlang/main.html"
 ];
 const langDict = [
     "poyeeni_na", // 0 
     "identity_lang", // 1
     "kawa", // 2
     "ablom", // 3
-    "nicesounds" // 4
+    "nicesounds", // 4
+    "newlang" // 5
 ]
 var bell = new Audio("../bell.mp3");
 var page = location.href.split("/").slice(-2)[1];

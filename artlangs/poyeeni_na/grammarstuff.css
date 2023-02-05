@@ -111,3 +111,6 @@ li.navbar:last-child {
 #active {
     background-color: #028b59;
 }
+#active a:hover {
+    background-color: #026b45; 
+}

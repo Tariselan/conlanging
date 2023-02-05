@@ -3,12 +3,25 @@ body {
     background-image: linear-gradient(#FDF8D9,#EBD6B7);
 }
 h1 {
-	text-align: center;
-    font-size: 50px;
+    text-align: center;
+    font-size: 42px;
     cursor: pointer;
 }
-a.links {
-	text-decoration: none;
+div#square {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: #181818;
+	right: 20px;
+	top: 100px;
+	background-color: #363636;
+	opacity: 0;
+}
+div#square:hover {
+	opacity: 1;
+    cursor: pointer;
 }
 div#navbar {
     position: fixed;
@@ -46,25 +59,12 @@ li.navbar:last-child {
     border-right: none;
     border-left: 3px solid #444;
 }
+a.links {
+	text-decoration: none;
+}
 #active {
     background-color: #028b59;
 }
-#active a:hover {
+#active a:hover{
     background-color: #026b45; 
-}
-div#square {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	border-style: solid;
-	border-radius: 5px;
-	border-color: #181818;
-	right: 20px;
-	top: 100px;
-	background-color: #363636;
-	opacity: 0;
-}
-div#square:hover {
-	opacity: 1;
-    cursor: pointer;
 }

@@ -52,8 +52,8 @@ li#lexicon {
 #active {
     background-color: #028b59;
 }
-#active:hover {
-    background-color: #026440;
+#active a:hover {
+    background-color: #026b45; 
 }
 table {
     width: 1200px;

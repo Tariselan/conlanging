@@ -48,7 +48,10 @@ li.navbar:last-child {
   border-left: 3px solid #444;
 }
 #active {
-    background-color: #028b59;
+  background-color: #028b59;
+}
+#active a:hover {
+  background-color: #026b45; 
 }
 h1 {
 	font-size: 50px;
